@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>텍스트</title>
+        <style>
+            div{
+                color: blue;
+                background-color: pink;
+            }
+            span{
+                color: green;
+                background-color: antiquewhite;
+            }
+            p{
+                width: 300px;
+                height: 30px;
+                background-color: yellow;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1><ruby>學習<rt>학습</rt></ruby></h1>
+            <h2>두 번째</h2>
+            <h3>세 번째</h3>
+            <h4>h4</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
+        </div>
+        <h2>H<sub>2</sub>O<sup>3</sup></h2>
+        <h2><s>취소선</s></h2>
+        <h2><s>취소선</s></h2>
+        <h2><small><small>글자 밑에 줄</small></small></h2>
+        <p><strong><mark>Lorem ipsum</mark></strong> dolor sit amet consectetur adipisicing elit.
+           <b><i>Dolores</i> consequatur</b> molestias exercitationem ullam,
+           <em>quod voluptates quos</em> cum blanditiis ipsum id illo, 
+           <span>vitae magnam laborum</span> repudiandae fuga fugit impedit distinctio doloremque.</p>
+        <hr>
+        <blockquote><q>인용문</q> 작성할 때 사용하는 태그입니다.</blockquote>
+        <pre>화면에 입력된 그대로           를 보여줍니다.
+            <span>......... 줄바꿈도 그대로</span>
+        </pre>
+        <!-- 목록 태그
+         작업일 : 2022.10.17-->
+        <h1>목록 만들기</h1>
+        <h2>순서 없는 목록</h2>
+        <ul>
+            <li>바나나</li>
+            <li>딸기</li>
+            <li>사과</li>
+        </ul>
+        <h2>순서 있는 목록</h2>
+        <ol type="A" start="3">
+            <li>첫 번째</li>
+            <li>두 번째</li>
+            <li>세 번째</li>
+        </ol>
+        <h2>설명 목록</h2>
+        <dl>
+            <dt>바나나</dt>
+            <dd>노란색 열대과일입니다.</dd>
+            <dt>사과</dt>
+            <dd>빨간색 맛있는 과일입니다.</dd>
+        </dl>
+    </body>
+</html>

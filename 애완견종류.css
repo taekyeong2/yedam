@@ -1,0 +1,93 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    border: 1px solid blue;
+    background-color: blue;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    /* display: block;
+    padding: 10px;
+    a는 인라인이니까 패딩 주려면 디스플레이로 박스 만들어줌 
+    인라인은 파일 그 자체가 박스이므로 좌우이동이나 패딩 등이 적용 x */
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    /* border-bottom: 3px solid red; */
+    border-right: 3px solid red;
+    margin-right: 10px;
+}
+.bn{
+    border: none;
+}
+section{
+    padding: 10px;
+    background-color: antiquewhite;
+}
+#anchor{
+    list-style: none;
+    text-align: center;
+}
+#anchor li{
+    display: inline-block;
+    margin-right: 20px;
+}
+#anchor a{
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+#pet1{
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 20px;
+}
+#pet2{
+    border: 2px dotted green;
+    border-radius: 30px;
+    padding: 20px;
+}
+#pet3{
+    border: 2px dashed purple;
+    border-radius: 10%;
+    padding: 20px;
+}
+figure{
+    padding: 10px;
+    text-align: center;
+    /* 피규어에 의해 가운데 정렬이 됨.(피규어는 블럭, 이미지는 인라인) */
+}
+/* #tt{
+    display: block;
+    text-align: right;
+    margin-right: 30px;
+} */
+section p{
+    display: block;
+    text-align: right;
+    margin-right: 30px;
+}
+aside{
+    background-color: aquamarine;
+    padding: 10px;
+}
+aside ul{
+    list-style-type: square;
+}
+footer{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}

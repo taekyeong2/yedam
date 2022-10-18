@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>표</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                margin: 20px;
+            }
+            thead{
+                background-color: pink;
+            }
+            tbody{
+                text-align: center;
+            }
+            tfoot{
+                background-color: gray;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="summary">표에 대한 설명안내문입니다.</p>
+        <table border="1" aria-describedby="summary"> 
+            <caption>00호텔 안내</caption>
+            <thead>
+                <tr>
+                    <th>방 이름</th>
+                    <th>대상</th>
+                    <th>크기</th>
+                    <th>가격</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>핑크방</td>
+                    <td>여성</td>
+                    <td rowspan="3">4인실</td>
+                    <td rowspan="4">1인 20.000원</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">보라방</td>
+                    <td>동성</td>
+                </tr>
+                <tr>
+                    <td>가족1팀</td>
+                </tr>
+                <tr>
+                    <td>그린방</td>
+                    <td>-</td>
+                    <td>2인실</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">바깥채 전체를 렌트합니다.</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table border="1">
+            <caption>1인당 연간 설탕 소비량<small>(단위:kg)</small></caption>
+            <colgroup>
+                <col style="background-color: gray;">
+                <col>
+            </colgroup>
+            <tr>
+                <th>WHO권장량</th>
+                <td>18.25</td>
+            </tr>
+                <th>한국</th>
+                <td>22</td>
+            <tr>
+                <th>중국</th>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th>싱가포르</th>
+                <td>58</td>
+            </tr>
+            <tr>
+                <th>미국</th>
+                <td>33</td>
+            </tr>
+            <tr>
+                <th>브라질</th>
+                <td>69</td>
+            </tr>
+            <tr>
+                <th>세계평균</th>
+                <td>23</td>
+            </tr>
+        </table>
+    </body>
+</html>

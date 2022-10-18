@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+}
+header{
+    background-color: palevioletred;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+nav ul{
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav a{
+    color:#fff;
+    text-decoration: none;
+}
+section{
+    border: 1px solid gray;
+}
+article ol{
+    list-style-type: lower-alpha;
+}
+footer{
+    background-color: rgba(41, 41, 214, 0.719);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
