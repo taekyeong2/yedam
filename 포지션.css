@@ -1,0 +1,102 @@
+div{
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+}
+.box1{
+    background-color: aqua;
+    /* opacity: 0.5;  - 반투명 */
+    /* opacity: 1; = visibility: visible; */
+    /* opacity: 0; = visibility: hidden; 영역은 존재*/
+    /* ex) display : none 영역없음*/
+}
+.box2{
+    background-color: blueviolet;
+    position: relative; /*자기자신기준 움직임*/
+    top: -10px;
+    left: 30px;
+}
+.box3{
+    background-color: red;
+    position: fixed; /*브라우저 기준*/
+    top: 30px;
+    right: 50px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.box4{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+    text-align: center;
+}
+.abs1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+.abs2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: orange;
+    width: 100px;
+    height: 100px;
+}
+.abs3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+.abs4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: green;
+    width: 100px;
+    height: 100px;
+}
+.abs5{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    /*자식의 크기도 고려해야함 - 자식의 가운데 지점이 중간에 와야함(-50)*/
+    background: blue;
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+}
+.z1{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background: red;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+}    
+.z2{
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+.z3{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    background: greenyellow;
+    width: 100px;
+    height: 100px;
+}
