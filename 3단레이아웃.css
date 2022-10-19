@@ -1,0 +1,46 @@
+#container{
+    border: 1px solid #ddd;
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+header{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+section{
+    border: 1px solid #ddd;
+    width: 384px;
+    /* 구하려는게 bor wid pad 값(border box)이 아니라 wid(내용/content box)값임 */
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    float: left;
+    /*margin : 0 5px 20px 5px */
+}
+#left{
+    border: 1px solid #ddd;
+    width: 220px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #eee;
+    float: left;
+}
+#right{
+    border: 1px solid #ddd;
+    width: 220px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #eee;
+    float: right;
+}
+footer{
+    border: 1px solid #ddd;
+    padding: 10px;
+    clear: both;
+}
+.green{
+    color: green;
+}

@@ -1,0 +1,38 @@
+#container{
+    width: 960px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    /* text aline center하면 컨테이너 안에 들어있는 모든 요소(글) 가운데 정렬*/
+    margin: 0 auto;
+    /* 마진을 넣으면 바디하고의 마진임.*/
+}
+header{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+section{
+    width: 620px;
+    height: 260px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+aside{
+    width: 220px;
+    height: 260px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+    background: #eee;
+}
+footer{
+    border: 1px solid #ddd;
+    clear: both;
+    padding: 10px;
+}
+.greentext{
+    color: green;
+}
